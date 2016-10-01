@@ -9,7 +9,7 @@ export var TodoList = React.createClass({
       if(todos.length === 0){
         return (
           <p className='container__message'>Nothing to do. Yay!</p>
-        )
+        );
       }
       return todos.map((todo) => {
         return (
